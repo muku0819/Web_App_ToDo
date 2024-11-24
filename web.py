@@ -24,3 +24,4 @@ for index,todo in enumerate(todos):
 
 st.text_input(label="Add your plan", placeholder="Add your item here.....",
               on_change=add_todo,key="new_todo")
+
